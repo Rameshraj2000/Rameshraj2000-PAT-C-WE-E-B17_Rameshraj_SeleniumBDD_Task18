@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","34834","Validate logout","","2026-04-20","passed","2026-04-20","","","",""
+"","21565","Validate input fields","","2026-04-20","passed","2026-04-20","","","",""
+"","28965","Successful Login","","2026-04-20","passed","2026-04-20","","","",""
+"","22781","Unsuccessful Login","","2026-04-20","passed","2026-04-20","","","",""
