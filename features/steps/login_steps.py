@@ -14,8 +14,8 @@ def step_impl(context): #launch browser and navigate to login page
 
 @when("user enters valid username and password")
 def step_impl(context): #user enters valid login details
-    context.page.enter_username("draj56403@gmail.com")
-    context.page.enter_password("Ramesh@1#")
+    context.page.enter_username("")
+    context.page.enter_password("")
 
 @when("user enters invalid username and password")
 def step_impl(context): #user enters invalid details
@@ -62,6 +62,6 @@ def step_impl(context): #performs login and logout
 
     context.page.open_url("https://v2.zenclass.in/login")
 
-    context.page.enter_username("draj56403@gmail.com")
-    context.page.enter_password("Ramesh@1#")
+    context.page.enter_username("")
+    context.page.enter_password("")
     context.page.click_login()
